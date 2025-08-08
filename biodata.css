@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #c40270, #e87d7d);
+    color: rgb(20, 2, 2);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.07);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 30px;
+    color: #560a56;
+}
+
+.sub {
+    font-size: 14px;
+    color: #390739;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.left {
+    flex: 1 1 250px;
+    text-align: center;
+}
+
+.foto {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    aspect-ratio: 16/9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.instagram-btn {
+    display: inline-block;
+    background-color: #fff;
+    color: #c04848;
+    padding: 8px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.instagram-btn:hover {
+    background-color: #ffd1ff;
+    color: #480048;
+}
+
+.right {
+    flex: 2 1 400px;
+}
+
+.data {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.data p {
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+button {
+    background-color: #fff;
+    color: #c04848;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #ffd1ff;
+    color: #480048;
+}
+
+.nav-link {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #fff;
+    color: #c04848;
+    padding: 8px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: #ffd1ff;
+    color: #efd6ef7e;
+}
